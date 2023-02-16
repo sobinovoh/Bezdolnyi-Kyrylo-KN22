@@ -1,11 +1,11 @@
-#include <iostream>
+п»ї#include <iostream>
 #include <clocale>
 #include "ModulesBezdolny.h"
 
 using namespace std;
 
 string copyright() {
-    return "(c) Бездольний Кирило";
+    return "(c) Р‘РµР·РґРѕР»СЊРЅРёР№ РљРёСЂРёР»Рѕ";
 }
 
 bool expression(char a, char b) {
@@ -13,15 +13,15 @@ bool expression(char a, char b) {
 }
 
 string DecHexSFunc(int x, int y, int z) {
-    cout << "В десятковiй: " << endl
+    cout << "Р’ РґРµСЃСЏС‚РєРѕРІiР№: " << endl
          << "'x' -> " << dec << x << endl
          << "'y' -> " << dec << y << endl
          << "'z' -> " << dec << z << endl << endl;
-    cout << "В шiстнадцятковiй: " << endl
+    cout << "Р’ С€iСЃС‚РЅР°РґС†СЏС‚РєРѕРІiР№: " << endl
          << "'x' -> " << hex << x << endl
          << "'y' -> " << hex << y << endl
          << "'z' -> " << hex << z << endl << endl;
-    cout << endl << "Результат обчислення виразу: S = " << s_calculation(x, y, z) << endl;
+    cout << endl << "Р РµР·СѓР»СЊС‚Р°С‚ РѕР±С‡РёСЃР»РµРЅРЅСЏ РІРёСЂР°Р·Сѓ: S = " << s_calculation(x, y, z) << endl;
     return "";
 }
 
@@ -33,12 +33,12 @@ int main() {
     int x, y, z;
     char a, b;
 
-    cout << "Введiть x, y, z: ";
+    cout << "Р’РІРµРґiС‚СЊ x, y, z: ";
     cin >> x >> y >> z;
-    cout << "Введiть символи 'a' та 'b': ";
+    cout << "Р’РІРµРґiС‚СЊ СЃРёРјРІРѕР»Рё 'a' С‚Р° 'b': ";
     cin >> a >> b;
 
-    cout << "Результат виразу: a + 5 > b + 2 -> " << expression(a, b) << endl << endl;
+    cout << "Р РµР·СѓР»СЊС‚Р°С‚ РІРёСЂР°Р·Сѓ: a + 5 > b + 2 -> " << expression(a, b) << endl << endl;
     cout << DecHexSFunc(x, y, z);
     return 0;
 }
