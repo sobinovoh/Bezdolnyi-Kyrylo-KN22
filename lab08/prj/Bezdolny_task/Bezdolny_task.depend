@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1678207343 source:c:\git\bezdolnyi-kyrylo-kn22\lab08\prj\bezdolny_task\main.cpp
+	<iostream>
+	<clocale>
+	"ModulesBezdolny.h"
+
+1678180323 c:\git\bezdolnyi-kyrylo-kn22\lab08\prj\bezdolny_task\modulesbezdolny.h
+
