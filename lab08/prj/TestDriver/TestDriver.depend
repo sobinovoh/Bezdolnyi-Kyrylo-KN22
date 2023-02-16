@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1678183578 source:c:\git\bezdolnyi-kyrylo-kn22\lab08\prj\testdriver\main.cpp
+	<iostream>
+	<cmath>
+	"ModulesBezdolny.h"
+
+1678180323 c:\git\bezdolnyi-kyrylo-kn22\lab08\prj\testdriver\modulesbezdolny.h
+
